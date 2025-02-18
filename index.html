@@ -9,41 +9,41 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: white;
             text-align: center;
         }
         header {
-            background-color: #333;
-            color: white;
             padding: 20px;
             font-size: 24px;
         }
         nav {
-            background: #555;
             padding: 10px;
         }
         nav a {
-            color: white;
             margin: 15px;
             text-decoration: none;
             font-size: 18px;
+            color: black;
         }
         .container {
             padding: 20px;
         }
         .artifact {
-            background: white;
+            background: none;
             padding: 15px;
             margin: 10px auto;
             width: 80%;
             max-width: 600px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            border: 1px solid black;
         }
-        footer {
-            margin-top: 30px;
-            padding: 10px;
-            background-color: #333;
-            color: white;
+        .artifact a {
+            display: block;
+            margin: 5px 0;
+            text-decoration: none;
+            color: black;
+        }
+        .artifact a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -54,7 +54,7 @@
 </header>
 
 <nav>
-    <a href="#about">Perfessional Self-Assessment</a>
+    <a href="#about">Professional Self-Assessment</a>
     <a href="#artifacts">Artifacts</a>
 </nav>
 
@@ -70,11 +70,9 @@
         <div class="artifact">
             <h3>Software Design & Engineering Enhancement</h3>
             <p>Analysis and improvements made in my capstone project.</p>
-            <div>
-                <a href="CS499_ModTHREE_MilestoneTWONarrative_RA.docx" download>Download Enhancement ONE Narrative</a>
-                <a href="WeightTrackingApp_Original.zip" download>Download Original File</a>
-                <a href="WeightTrackingApp_ModThreeFinal_MilestoneTWO_RobinAbraham.zip" download>Download Enhanced File</a>
-            </div>
+            <a href="CS499_ModTHREE_MilestoneTWONarrative_RA.docx" download>Download Enhancement ONE Narrative</a>
+            <a href="WeightTrackingApp_Original.zip" download>Download Original File</a>
+            <a href="WeightTrackingApp_ModThreeFinal_MilestoneTWO_RobinAbraham.zip" download>Download Enhanced File</a>
         </div>
 
         <div class="artifact">
@@ -83,7 +81,6 @@
             <a href="CS499_ModFOUR_MilestoneTHREENarrative_RA.docx" download>Download Enhancement TWO Narrative</a>
             <a href="2.3 Vector Sorting.zip" download>Download Original File</a>
             <a href="CS499_ModFOUR_MilestoneTHREE_VectorSorting.zip" download>Download Enhanced File</a>
-
         </div>
 
         <div class="artifact">
@@ -95,10 +92,6 @@
         </div>
     </section>
 </div>
-
-<footer>
-    <p>&copy; 2025 Robin Abraham. All Rights Reserved.</p>
-</footer>
 
 </body>
 </html>
